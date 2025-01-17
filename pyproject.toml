@@ -1,0 +1,16 @@
+[project]
+name = "mnist-gan-jax"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=3.2.0",
+    "equinox>=0.11.11",
+    "ipykernel>=6.29.5",
+    "ipython>=8.31.0",
+    "jax[cuda]>=0.4.38",
+    "matplotlib>=3.10.0",
+    "optax>=0.2.4",
+    "pillow>=11.1.0",
+]
